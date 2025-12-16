@@ -1,0 +1,5 @@
+{
+  "name": "Stellar Sudoku",
+  "description": "A smart Sudoku game powered by Gemini. Select your star difficulty, generate puzzles on the fly, and solve them with intelligent assistance.",
+  "requestFramePermissions": []
+}
