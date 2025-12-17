@@ -15,11 +15,11 @@ const cleanJsonString = (str: string) => {
 };
 
 export const generateSudokuPuzzle = async (stars: number): Promise<SudokuData> => {
-  if (!API_KEY) {
-    throw new Error("API Key not found");
-  }
+  // if (!API_KEY) {
+  //   throw new Error("API Key not found");
+  // }
 
-  const ai = new GoogleGenAI({ apiKey: API_KEY });
+  const ai = new GoogleGenAI({ apiKey: 'AIzaSyB4bJEo9i2T6tZrcfawdTmH_xNVjgE3scM' });
 
   // We ask the AI only for the SOLUTION (a valid filled grid).
   // We will then programmatically carve out holes to ensure:
